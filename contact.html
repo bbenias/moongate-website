@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moongate Technologies - Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img src="images/logo.png" alt="Moongate Technologies Logo" class="logo">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="agriculture.html">Agriculture</a></li>
+                        <li><a href="construction.html">Construction</a></li>
+                        <li><a href="mining.html">Mining</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <h1>Get in Touch with Moongate Technologies</h1>
+            <p>Contact us to request a quote or discuss your project requirements.</p>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="info-section">
+                <p>Submit your request and we will respond promptly with a quote or consultation.</p>
+            </div>
+
+            <div class="contact-container">
+                <form action="https://formspree.io/f/xjggkead" method="POST" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="project-type">Project Type *</label>
+                        <select id="project-type" name="project_type" required>
+                            <option value="">Select a project type</option>
+                            <option value="Agriculture">Agriculture</option>
+                            <option value="Construction">Construction</option>
+                            <option value="Mining">Mining</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="location">Location *</label>
+                            <input type="text" id="location" name="location" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="area-size">Area Size</label>
+                            <input type="text" id="area-size" name="area_size" placeholder="e.g., 50 acres, 10 hectares">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="timeline">Timeline</label>
+                        <input type="text" id="timeline" name="timeline" placeholder="e.g., Immediate, Next 2 weeks, Next month">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="notes">Additional Notes</label>
+                        <textarea id="notes" name="notes" placeholder="Tell us more about your project requirements..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">Submit Request</button>
+                </form>
+
+                <section class="contact-details">
+                    <h2>Other Ways to Contact Us</h2>
+                    <p><strong>Email:</strong> info@moongatetechnologies.com</p>
+                    <p><strong>Phone:</strong> +263 774 821 35</p>
+                    <p><strong>Phone:</strong> +263 836 131 55</p>
+                    <p><strong>Phone:</strong> +263 867 721 0946</p>
+                    <p><strong>Address:</strong> 46 Gilchrist Drive, Bluffhill, Harare</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Moongate Technologies. All rights reserved.</p>
+            <p>Professional Commercial Drone Services</p>
+        </div>
+    </footer>
+</body>
+</html>
